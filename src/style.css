@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'MyFontFamily';
+    src: url('./Roboto-Regular.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.hello {
+    min-height: 100vh;
+    color: white;
+    font-family: 'MyFontFamily';
+    background: url('./pattern.jpg');
+}
